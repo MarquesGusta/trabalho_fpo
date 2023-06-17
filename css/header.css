@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+body{
+    background-color: #E6E6E6;
+    color: black; 
+    font-family: "Inter", "sans-serif";
+    margin: 0;
+
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+#linkgit{
+    color: white;
+    font-size: 20px;
+    background-color: #E30613;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center
+}
+
+#linkgit p, #linkgit a, #linkgit img{
+    color: white;
+    text-decoration: none;
+    margin-right: 2.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#linkgit a:hover{
+    text-decoration: underline;
+}
+
+
+/* Parte do conteudo-header */
+
+#conteudo-header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#sub-conteudo-header-logo{
+    width: 30vw;
+}
+
+#logo_senai{
+    margin: 30px;
+    width: 160px;
+    height: 48px;
+}
+
+#sub-conteudo-header-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sub-conteudo-header-items  a, .dropdown p{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+#sub-conteudo-header-items a:hover, .dropdown p:hover{
+    background-color: #cbc7c7;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0;
+    padding: 2px;
+    border: none;
+    background-color: #E30613;
+
+}
+
+/* Parte do dropdown */
+
+.dropdown{
+    display: flex;
+}
+
+.dropdown p{
+    margin: 16px 10px; 
+}
+
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    justify-content: center;
+    display: none;
+    transition: 1s;
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    top:40px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+
+.dropdown:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    list-style: none;
+}
+
+.dropdown li{
+    font-size:16px ;
+    padding: 10px 0;
+}
+
+.dropdown a{
+   padding: 5px 40px !important;
+}
