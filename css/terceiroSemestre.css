@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?familyInter&display=swap');
+
+body{
+    margin: 0;
+    background-color: #E6E6E6;
+    font-family: 'Inter',sans-serif;
+
+}
+/*  Titulo principal */
+main h1{
+    color: #E30613;
+    background-color: #FFF;
+    width: 70vw;
+    padding: 16px;
+    font-weight: bold;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/*  Subtitulo, dos tópicos */
+main h2{
+    color: #000;
+    font-weight: bold;
+}
+
+/* titulo de algum tema especifico */
+main h3{
+    color: #000;
+    font-weight: bold;
+    margin-left: 5vw;
+    font-size: 24px;
+}
+
+/* Div de cada tópico */
+.conteudo-main{
+    background-color: #FFF;
+    width: 70vw;
+    margin-top: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 16px;
+    overflow: hidden;
+}
+
+/* discrição dos tópicos */
+main p {
+    margin: 40px 5vw;
+    color: #282828;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+/* discrição da lista */
+main ul{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+main ul li{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Setando o tamanho das imagens */
+
+/* Requisitos e modelagem */
+main img{
+    margin: 40px 0;
+}
+
+#img_1_terceiroSemestre{
+    width: 600px;
+}
+
+#img_2_terceiroSemestre{
+    width: 600px;
+}
