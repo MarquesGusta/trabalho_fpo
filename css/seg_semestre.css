@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #E6E6E6;
+}
+
+body h1, h3, p{
+    font-family: "Inter", "sans-serif";
+}
+
+h1{
+    color: #E30613;
+    font-size: 25px;
+    background-color: white;
+    margin: 1% 15% 1% 15%;
+    text-align: center;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.conteudo{
+    background-color: white;
+    margin: 1% 15% 1% 15%;
+    padding: 1% 3% 1% 3%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* se tirar o flex o texto e a imagem ficam um embaixo do outro */
+.texto_img{
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 850px){
+    .texto_img{
+        display: block;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .conteudo img{
+        width: 50%;
+        height: 50%;
+    }
+
+    h1{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .conteudo img{
+        width: 40%;
+        height: 40%;
+    }
+}
