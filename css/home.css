@@ -23,14 +23,6 @@ main h2{
     font-weight: bold;
 }
 
-/* titulo de algum tema especifico */
-main h3{
-    color: #000;
-    font-weight: bold;
-    margin-left: 5vw;
-    font-size: 24px;
-}
-
 /* Div de cada tópico */
 .conteudo-main{
     background-color: #FFF;
@@ -50,20 +42,6 @@ main p {
     line-height: 1.4em;
     font-weight: 300;
 }
-
-/* discrição da lista */
-main ul{
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-
-main ul li{
-    margin-top: 15px;
-    font-size: 18px;
-}
-
-
 
 /*css da primeira opção de fotos dos integrantes*/
 #fotos_integrantes{
