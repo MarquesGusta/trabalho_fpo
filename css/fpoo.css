@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: #E30613;
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+    background-color: #E6E6E6;
+}
+
+pre{
+    padding-bottom: 30px;
+}
+
+.titulo, .carga, .dia, .imagens, .professor, .exemplos{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    height: 56px;
+    margin-top: 48px;
+    background-color: #fff;
+    margin-left: 15%;
+}
+
+.titulo{
+    height: 135px;
+    font-weight: bold;
+    color: #E30613;
+}
+
+.info{
+    margin-top: 48px;
+    background-color: #fff;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.info h2{
+    padding-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.info pre{
+    font-size: 20px;
+}
+
+main img{
+    max-width: 70%;
+}
+
+.exemplos h2{
+    padding: 2%;
+}
+
+.exemplos{
+    display: block;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.exemplos h3{
+    align-items: center; 
+}
+
+/* diminuir texto */
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
